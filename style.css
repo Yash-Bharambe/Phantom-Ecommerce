@@ -1064,6 +1064,10 @@ body {
 
 
 @media (max-width:799px) {
+  .logo {
+    max-width: 250px; /* Set a maximum width for smaller screens */
+    width: auto; /* Allow the image to shrink below its original size */
+}
   #navbar {
     display: flex;
     flex-direction: column;
